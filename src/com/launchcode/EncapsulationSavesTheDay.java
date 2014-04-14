@@ -2,7 +2,7 @@ package com.launchcode;
 
 import java.lang.*;
 
-public class EncapsulationOops {
+public class EncapsulationSavesTheDay {
 
 	public static void main(String[] varargs) {
 		Rectangle myShape = new Rectangle(32);

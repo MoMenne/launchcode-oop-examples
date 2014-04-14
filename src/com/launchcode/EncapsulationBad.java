@@ -2,7 +2,7 @@ package com.launchcode;
 
 import java.lang.*;
 
-public class NoEncapsulation {
+public class EncapsulationBad {
 
 	public static void main(String[] varargs) {
 		Rectangle myShape = new Rectangle(10, 15);
