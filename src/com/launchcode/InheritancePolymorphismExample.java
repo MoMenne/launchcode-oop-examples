@@ -1,11 +1,11 @@
-package com.launchcode.inheritance;
+package com.launchcode;
 
 /**
  * User: mpmenne
  * Date: 4/13/14
  * Time: 8:50 PM
  */
-public class InheritanceExample {
+public class InheritancePolymorphismExample {
 
     public static void main(String[] varArgs) {
 //        Phone phone = new Phone();

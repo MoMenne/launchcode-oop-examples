@@ -1,24 +1,32 @@
-package com.launchcode.encapsulation;
+package com.launchcode;
 
 import java.lang.*;
 
-public class NoEncapsulation {
+public class Encapsulation {
 
 	public static void main(String[] varargs) {
 		Rectangle myShape = new Rectangle(10, 15);
-		System.out.println(String.format("Super sale on TV's %d by %d", myShape.width, myShape.height));
-		System.out.println(String.format("Width %d, Height %d, Size %d, Perimeter %d", myShape.width, myShape.height, myShape.getSize(), myShape.getPerimeter()));
+		System.out.println(String.format("Width %d, Height %d, Size %d, Perimeter %d", myShape.getWidth(), myShape.getHeight(), myShape.getSize(), myShape.getPerimeter()));
 	}
 
 	
 	private static class Rectangle {
-		public int width;
-		public int height;
+		private int width;
+		private int height;
 		
 		public Rectangle (int width, int height) {
 			this.width = width;
 			this.height = height;
 		}
+		
+		public int getWidth() {
+			return this.width;
+		}
+		
+		public int getHeight() {
+			return this.height;
+		}
+		
 		public int getSize() {
 			return this.height * this.width;
 		}	

@@ -1,4 +1,4 @@
-package com.launchcode.encapsulation;
+package com.launchcode;
 
 import java.lang.*;
 
