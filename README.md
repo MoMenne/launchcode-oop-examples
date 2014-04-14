@@ -7,9 +7,14 @@ The most widely asked interview question for developers all time is:
 "What are the principles of object oriented design?"
 
 Good thing you have a nice acronym.
+
 P   olymorphism
+
 I   nheritance
+
 E   ncapsulation
+
+
 
 These principles differentiate object oriented programming from procedural programming
 and provide the essential language constructs to keep you code DRY
