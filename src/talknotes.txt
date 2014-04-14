@@ -1,0 +1,13 @@
+
+
+Write a basic Rectangle
+It turns out that you've written the best Rectangle class anyone has ever seen and so it's decided to be used across the company.
+1000's of usages.... then you need to make an optimization....
+Instead of storing length and width, it turns out that storing the diagnol of rectangle will be more efficient.... save 32 bits.
+Since you're Rectangle class is used in millions of places, this optimization is absolutely essential!
+If you don't have encapsulation, you're screwed.
+
+
+If you want to see what Java should like, check out Google GO
+Java Programmers were freaking out about pointers! :-)
+No Classes.... Just structs!
