@@ -15,4 +15,5 @@ These principles differentiate object oriented programming from procedural progr
 and provide the essential language constructs to keep you code DRY
 
 To find out what each of these principles mean clone this repo and checkout the source:
+
 git clone https://github.com/MoMenne/launchcode-oop-examples.git
