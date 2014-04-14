@@ -2,6 +2,17 @@ package com.launchcode;
 
 import java.lang.*;
 
+/**
+ * This class employs proper encapsulation.
+ *
+ * It provides getter methods for both width and height.
+ * Any object that wishes to use width and height must use
+ * the getHeight() and getWidth() methods.  This allows us
+ * to change anything we like inside the Rectangle class
+ * without the referencing classes noticing.
+ *
+ */
+
 public class EncapsulationGood {
 
 	public static void main(String[] varargs) {

@@ -6,4 +6,10 @@ package com.launchcode;
  * Time: 10:45 PM
  */
 public class RealLifeOop {
+
+    public static void main(String[] varargs) {
+
+    }
+
+
 }

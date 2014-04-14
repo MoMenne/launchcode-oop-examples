@@ -2,6 +2,20 @@ package com.launchcode;
 
 import java.lang.*;
 
+
+/**
+ *  When objects do not employ encapsulation, other objects are able to
+ *  access whatever they like within the object.
+ *
+ *  These "public" fields can create coupling between classes,
+ *      which makes can make it very difficult to modify in the future.
+ *
+ *  For example, this class below has a "public" width and height.
+ *      If in the future you decided to change the way you store
+*       the size of the square to diagonal, all of the
+ *      referencing classes would have to change as well
+ */
+
 public class EncapsulationBad {
 
 	public static void main(String[] varargs) {

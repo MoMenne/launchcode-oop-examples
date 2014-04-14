@@ -2,6 +2,23 @@ package com.launchcode;
 
 import java.lang.*;
 
+/**
+ *
+ * Okay, the unimaginable happenned.....
+ *
+ * We have to now use our Rectangle class for TVs ...
+ * ... and guess what... they want to store the rectangle by
+ * diagonal.
+ *
+ * Good thing we used proper encapsulation.  Our width and height
+ * are private, other classes can only access those by
+ * getWidth() and getHeight().  That means we can change
+ * how width and height is computed without anyone
+ * noticing (aka breaking).
+ *
+ *
+ */
+
 public class EncapsulationSavesTheDay {
 
 	public static void main(String[] varargs) {

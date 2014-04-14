@@ -5,7 +5,46 @@ package com.launchcode;
  * Date: 4/13/14
  * Time: 8:50 PM
  */
+
+/**
+ *
+ * There are three principles to Object Oriented Programming:
+ * P        polymorphism
+ * I        inheritance
+ * E        encapsulation
+ *
+ * These principles are the primary ways Object Oriented Design differentiates
+ *  itself from procedural programming
+ *
+ * The purpose behind these principles and Object Oriented Programming
+ *  on the whole is to reduce duplication and coupling with in an application
+ * STAY DRY!!!!  (do not repeat yourself)
+ *
+ * EncapsulationGood keeps implementation details private; exposing only what is needed.
+ *
+ * Inheritance reduces duplication having shared methods between a parent and child class.
+ *
+ * Polymorphism allows an object to appear as more than one class.  This can be done
+ *  using both inheritance as well as interfaces.
+ *
+ */
+
 public class InheritancePolymorphismExample {
+
+    /**
+     * Inheritance shares allows shared methods between a parent and child class.
+     * For example, if you declare a method in a parent class,
+     *  that method does not have to be declared again in a child class.
+     *
+     * Polymorphism lets an object be used as multiple types.
+     * For example, since a child object can do everything that a parent
+     *  object can do, we can declare the type of the child object as either
+     *  the class of the child object OR the class of the parent object.
+     *
+     * This can also be accomplished through the use of interfaces.
+     *  An object can be declared the type of any interface that is implemented.
+     *
+     */
 
     public static void main(String[] varArgs) {
 //        Phone phone = new Phone();
